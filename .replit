@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/array/move_zeros.py"
+run = "python algorithm_practice/array/rotate_array.py"
