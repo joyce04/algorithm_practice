@@ -1,3 +1,5 @@
+# fast for lookups, push/pop
+# slow insert/delete == shift
 class Array:
   def __init__(self):
     self.length = 0
