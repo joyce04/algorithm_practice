@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/hash_table/hash_table.py"
+run = "python algorithm_practice/hash_table/first_recurring_item.py"

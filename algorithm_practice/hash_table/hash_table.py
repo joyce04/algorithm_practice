@@ -38,18 +38,29 @@ class HashTable:
         bucket.pop(b)
         return
 
+  def keys(self):
+    keys = []
+    for i in range(self.size):
+      if self.data[i]:
+        keys.extend(list(map(lambda x: x[0], self.data[i])))
+    return keys
 
-hashtable = HashTable(10)
 
-print(hashtable._hash_('grapes'))
-print(hashtable._hash_('grapes1233'))
-print(hashtable._hash_('pear'))
+hashtable = HashTable(3)
+
+print('hash :', hashtable._hash_('grapes'))
+print('hash :', hashtable._hash_('grapes1233'))
+print('hash :', hashtable._hash_('pear'))
 
 hashtable.set('grapes', 10000)
 hashtable.set('apples', 50)
 hashtable.set('basket', 12)
-print(hashtable.data)
+print('Data :', hashtable.data)
 
-print(hashtable.get('grapes'))
+print('GET value : ', hashtable.get('grapes'))
+hashtable.set('grapes1', 10000)
+hashtable.set('grapes2', 10000)
 hashtable.delete('basket')
-print(hashtable.data)
+print('Data :', hashtable.data)
+
+print('keys :', hashtable.keys())
