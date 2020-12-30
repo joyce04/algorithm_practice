@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/linked_list/basic.py"
+run = "python algorithm_practice/stack_queue/queue_with_stack.py"
