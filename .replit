@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/tree/binary_heap.py"
+run = "python algorithm_practice/graph/basics.py"
