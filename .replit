@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/stack_queue/queue_with_stack.py"
+run = "python algorithm_practice/tree/binary_heap.py"
