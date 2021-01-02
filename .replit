@@ -1,2 +1,2 @@
 language = "bash"
-run = "python algorithm_practice/graph/basics.py"
+run = "python algorithm_practice/algorithms/sorting/quick_sort.py"
